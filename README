@@ -1,0 +1,21 @@
+--
+README
+--
+This file contains instructions to run the ruby code that we have written for implementing our algorithm for NL assignment 1
+
+The basic setup instructions are provided in the report - NL_assignment1.pdf file submitted.
+
+The program can be run for training on a sentence and for parsing a sentence on a trained model.
+
+1. Create an empty file 'trained_model.txt' on the same directory where the program is run
+
+2. To Train on a sentence, usage: 
+          ruby question_word_annotator.rb train "John gave a pen to Mary"
+
+3. To Parse a sentence based on the trained data, usage:
+          ruby question_word_annotator.rb parse "John gave a pen to Mary"
+--
+Ram Kumar Hariharan (GTID: 902631808)
+Blair Daly (GTID: 902268308)
+
+CS7650, Fall 2010
